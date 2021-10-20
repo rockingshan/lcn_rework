@@ -1,0 +1,44 @@
+body {
+    background-color:#e8ffff;
+
+}
+.lcndata {
+    border-radius: 5px;
+    box-shadow: 5px ppx 5px grey;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* margin-top: 20px; */
+    margin-left: 8%;
+    text-align: center;
+    width: 80%;
+    padding: 5px; 
+  
+  }
+.add_form{
+    border-radius: 10px;
+    border: 1px solid #70d3bc;
+    box-shadow: 10px 10px 5px grey;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-top: 100px;
+    margin-left: 35%;
+    text-align: left;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    padding: 30px; 
+
+}
+div [class*="left floated"] {
+    float: left;
+    margin-left: 0.25em;
+  }
+  
+  div [class*="right floated"] {
+    float: right;
+     margin-right: 0.25em;
+  } 
+.danger-red{
+    color:hsl(0, 69%, 60%);
+}
+.susp-teal{
+    color:turquoise;
+}

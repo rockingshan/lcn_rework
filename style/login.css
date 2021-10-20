@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: linear-gradient(-45deg, #e69c7a, #d687a5, #7ebdd4, #70d3bc);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+    font-family: Open Sans;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.login-box {
+  border-radius: 10px;
+  border: 1px solid #70d3bc;
+  box-shadow: 10px 10px 5px grey;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  margin-top: 100px;
+  margin-left: 40%;
+  text-align: center;
+  width: 430px;
+  height: 420px;
+  background-color: white;
+  padding: 50px; 
+
+}
+
+.logo {
+  height: 70px;
+  margin-bottom: 30px;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 100%;
+  font-size: 16px;
+}
